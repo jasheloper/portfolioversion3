@@ -355,6 +355,7 @@ nav ul li a:active {
 }
 @media (max-width: 700px) {
   .intro h1 {
+    line-height: 51px;
     font-size: 40px;
     padding: 2px;
   }
@@ -534,6 +535,7 @@ nav ul li a:active {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #2083a7, #8360c3);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: unset;
   padding: 10px 0;
 }
 .projects h1 {
