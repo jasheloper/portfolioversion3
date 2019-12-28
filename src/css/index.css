@@ -581,7 +581,7 @@ nav ul li a:active {
 }
 @media (max-width: 700px) {
   .all-work .single-project .project-info {
-    paddding: 0 12px;
+    padding: 0 12px;
   }
 }
 .all-work .single-project .project-info img {
@@ -640,4 +640,3 @@ nav ul li a:active {
     transform: translateY(-30px);
   }
 }
- 
