@@ -4,6 +4,7 @@ import Header from "./components/header";
 import Intro from "./components/intro";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
+import Growth from './components/growth'
 import "./css/index.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <br />
         <Skills />
         <Projects />
+        <Growth />
       </div>
     </>
   );
