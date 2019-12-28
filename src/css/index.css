@@ -537,6 +537,10 @@ nav ul li a:active {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-attachment: unset;
   padding: 10px 0;
+  border-bottom: 30px solid #2f2d2e;
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
 }
 .projects h1 {
   text-align: center;
@@ -745,8 +749,11 @@ nav ul li a:active {
   }
 }
 .growth {
-  max-width: 1200px;
   margin: 0 auto;
+  border-bottom: 30px solid #2f2d2e;
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
 }
 .growth h1 {
   text-align: center;
@@ -763,5 +770,24 @@ nav ul li a:active {
   display: flex;
 }
 .learning .learning-info {
+  -webkit-box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.21);
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  padding: 10px 10px;
   margin: 30px;
+  background: rgba(255, 255, 255, 0.603);
+  text-shadow: none;
+  line-height: 40px;
+  text-shadow: 2px 4px 3px rgba(150, 135, 135, 0.397);
+}
+.learning .learning-info img {
+  -webkit-box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.21);
+  box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.21);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
