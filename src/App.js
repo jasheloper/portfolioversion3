@@ -4,7 +4,8 @@ import Header from "./components/header";
 import Intro from "./components/intro";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
-import Growth from './components/growth'
+import Growth from './components/growth';
+import Network from './components/network'
 import "./css/index.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Skills />
         <Projects />
         <Growth />
+        <Network />
       </div>
     </>
   );
