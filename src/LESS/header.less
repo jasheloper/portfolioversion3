@@ -1,0 +1,42 @@
+.header-body {
+  margin: 0 auto;
+  width: auto;
+  height: auto;
+  color: #fff;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 500% 500%;
+  animation: gradientBG 15s ease infinite;
+  text-align: center;
+  padding: 70px 0;
+  border-bottom: 30px solid #2f2d2e;
+
+  @media @mobile {
+    padding: 30px 3px;
+    animation: gradientBG 5s ease infinite;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-family: "Share", cursive;
+    text-shadow: 2px 4px 3px rgba(104, 88, 88, 0.397);
+
+    @media @mobile {
+      font-size: auto;
+    }
+    // @media @tablet {
+    //   font-size: 50px;
+    // }
+  }
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
