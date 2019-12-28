@@ -827,11 +827,11 @@ nav ul li a:active {
 }
 .network {
   padding: 10px 0;
-  background: #C33764;
+  background: #c33764;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+  background: -webkit-linear-gradient(to right, #1d2671, #c33764);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1D2671, #C33764);
+  background: linear-gradient(to right, #1d2671, #c33764);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-box-shadow: 1px -8px 19px 0px rgba(0, 0, 0, 0.71);
   -moz-box-shadow: 1px -8px 19px 0px rgba(0, 0, 0, 0.71);
@@ -842,7 +842,6 @@ nav ul li a:active {
   color: white;
   text-shadow: 2px 4px 3px rgba(104, 88, 88, 0.397);
   font-size: 60px;
-  line-height: 45px;
 }
 @media (max-width: 700px) {
   .network h1 {
@@ -851,6 +850,10 @@ nav ul li a:active {
 }
 .network a {
   color: rgba(201, 83, 120, 0.938);
+}
+.network h2 {
+  font-size: 40px;
+  line-height: 50px;
 }
 .all-network {
   max-width: 1500px;
@@ -885,7 +888,7 @@ nav ul li a:active {
 }
 @media (max-width: 700px) {
   .all-network .network-item ul {
-    padding: 5px 30px;
+    padding: 0;
   }
 }
 .all-network .network-item ul li {
