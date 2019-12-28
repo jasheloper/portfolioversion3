@@ -18,7 +18,7 @@ function Projects() {
               <img src={portfolio} alt="Project" />
             </div>
 
-            <div className="project-info">
+            <div className="project-info description">
             
              Portfolio site built solely for the purpose of displaying my work in web development, writing, and content creation.  A tool that is utilized for professional networking with others in the software (or similiar) fields including employers & a centralized location to share my knowledge and what I'm learning.
               <br />
@@ -37,7 +37,7 @@ function Projects() {
               <img src={recipe} alt="Project" />
             </div>
 
-            <div className="project-info">
+            <div className="project-info description">
              
               This React app allows users to generate a random meal on button click.  3rd party API data was implemented using Axios and the selected data that users see on each request is: <code>title, photo, instructions, category,</code> and <code>area</code>.
 
@@ -56,7 +56,7 @@ function Projects() {
               <img src={tvguide} alt="Project" />
             </div>
 
-            <div className="project-info">
+            <div className="project-info description">
            
               This React app allows users to see the latest episodes on television.  The data is generated from a live 3rd party API and is automatically updated each day.  Each request gets <code>image, overview, country, language,</code> and <code>vote average</code>.
 
@@ -67,7 +67,15 @@ function Projects() {
               </h4>
             </div>
           </div>
+
+<div className="button-div">
+<button>View More</button>
+</div>
+         
         </div>
+
+
+       
       </div>
     </>
   );

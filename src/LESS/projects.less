@@ -33,7 +33,6 @@
   .single-project {
     flex-direction: column;
     display: flex;
-
     margin: 20px;
 
     // &:hover {
@@ -46,23 +45,26 @@
     // }
 
     .project-info {
-      margin: 0 auto; 
+      margin: 0 auto;
       max-width: 1000px;
       padding: 20px 30px;
       line-height: 35px;
       text-shadow: none;
       background: white;
       font-size: 20px;
+      -webkit-box-shadow: 0px 1px 13px 8px rgba(0, 0, 0, 0.24);
+      -moz-box-shadow: 0px 1px 13px 8px rgba(0, 0, 0, 0.24);
+      box-shadow: 0px 1px 13px 8px rgba(0, 0, 0, 0.24);
+      border: 5px solid @dark;
+
       @media @mobile {
         paddding: 0 12px;
         font-size: 15px;
         width: auto;
       }
       @media @tablet {
-        width: 80%;
+        width: 90%;
       }
-
-    
 
       img {
         border-radius: 5%;
@@ -82,7 +84,7 @@
         }
       }
       h2 {
-        font-size: 40px;
+        font-size: 48px;
         border-bottom: 1px solid @dark;
         @media @mobile {
           font-size: 30px;
@@ -102,10 +104,56 @@
         font-size: 20px;
         color: rgb(189, 129, 17);
         a {
-          color: rgb(189, 129, 17);
+          color: rgb(219, 153, 29);
           text-decoration: underline;
         }
       }
+    }
+  }
+}
+
+/* Description needs to stand out in projects section.  */
+
+.description {
+  background: @dark !important ;
+  color: rgba(253, 248, 241, 0.904);
+}
+
+/* Button Style for View More  */
+
+.button-div {
+  padding: 50px 0;
+  button {
+    border: 0;
+    padding: 10px 0;
+    width: 210px;
+
+    background: #00b4db; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to bottom,
+      #0083b0,
+      #00b4db
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to bottom,
+      #0083b0,
+      #00b4db
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: 20px;
+    font-family: "Share", cursive;
+    text-shadow: 2px 4px 3px rgba(104, 88, 88, 0.397);
+    color: white;
+
+    border: 7px solid white;
+
+    -webkit-box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.21);
+    -moz-box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.21);
+    box-shadow: 0px 2px 15px -1px rgba(0, 0, 0, 0.21);
+
+    &:hover {
+      -webkit-animation: wobble-hor-bottom 0.8s both;
+      animation: wobble-hor-bottom 0.8s both;
     }
   }
 }
@@ -128,5 +176,64 @@
   100% {
     -webkit-transform: translateY(-30px);
     transform: translateY(-30px);
+  }
+}
+
+@-webkit-keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
+@keyframes wobble-hor-bottom {
+  0%,
+  100% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  15% {
+    -webkit-transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    -webkit-transform: translateX(15px) rotate(6deg);
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    -webkit-transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    -webkit-transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    -webkit-transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-6px) rotate(-1.2deg);
   }
 }
