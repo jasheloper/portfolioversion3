@@ -1,5 +1,7 @@
 import React from "react";
 import learning from "../images/learning.PNG";
+import bulb from "../images/lightbulb.png";
+import team from "../images/team.png";
 
 function Growth() {
   return (
@@ -8,8 +10,11 @@ function Growth() {
 
       <div className="learning">
         <div className="learning-info">
+          <div className="icon">
+            <img src={bulb} alt="Learning" />
+          </div>
           <h2>Learning</h2>
-          I'm constantly learning and growing my skills at{" "}
+          I'm actively learning and growing my skills at{" "}
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -18,10 +23,10 @@ function Growth() {
             Lambda School
           </a>{" "}
           studying Full Stack Web Development. So, I'm staying up to date and in
-          the know of the world of programming by building projects with a team
-          and consistently applying new skills learned. Technology is always
-          changing and there is always a lot to learn, which is one of the
-          reasons I love it.
+          the know of software and programming by building projects with teams
+          in a real-world work environment and consistently applying new skills
+          learned. Technology is always changing and there is always a lot to
+          learn, which is one of the reasons I love it.
         </div>
 
         <div className="learning-info">
@@ -32,13 +37,23 @@ function Growth() {
         </div>
 
         <div className="learning-info">
-          <h2>Leadership</h2>I am also currently serving in Lambda School's
+          <div className="icon">
+            <img src={team} className="icon" alt="Leadership" />
+          </div>
+          <h2>Leadership</h2>I am also currently serving in{" "}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://lambdaschool.com/careers"
+          >
+            Lambda School's
+          </a>{" "}
           internship program as a Team Lead where I am leading a team of 6
           Software Engineering students providing group and one-on-one guidance
-          & support, code review, and feedback. I also serve as Project lead for
-          build weeks helping students to understand their role in the project,
-          set up tools for organizing the project, and host daily standups to
-          discuss the team's work progress.
+          & support, code review, and feedback. I also serve as a Project Lead
+          for build weeks helping students to understand their role in the
+          project, set up tools for organizing the project, and host daily
+          standups.
         </div>
       </div>
     </div>
