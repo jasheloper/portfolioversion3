@@ -31,7 +31,9 @@ function Projects() {
                   href="https://jashele.dev/"
                 >
                   Live Demo
-                </a> | <a
+                </a>{" "}
+                |{" "}
+                <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/jasheloper/portfolioversion3"
@@ -62,7 +64,9 @@ function Projects() {
                   href="https://what-should-i-eat.netlify.com/"
                 >
                   Live Demo
-                </a> | <a
+                </a>{" "}
+                |{" "}
+                <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/jasheloper/React-Redux-App/tree/jashele-tillman"
@@ -76,7 +80,7 @@ function Projects() {
           <div className="single-project">
             <div className="project-info">
               <h2>TV Guide</h2>
-              <h3>Tools: React, React Hooks, AJAX</h3>
+              <h3>Tools: React, Hooks, AJAX</h3>
               <img src={tvguide} alt="Project" />
             </div>
 
@@ -93,7 +97,9 @@ function Projects() {
                   href="https://jasheletv.netlify.com/"
                 >
                   Live Demo
-                </a> | <a
+                </a>{" "}
+                |{" "}
+                <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/jasheloper/jashele-tv"
@@ -104,9 +110,9 @@ function Projects() {
             </div>
           </div>
 
-          <div className="button-div">
+          {/* <div className="button-div">
             <button>View More</button>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

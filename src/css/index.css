@@ -352,7 +352,7 @@ nav ul li a:active {
 }
 .intro h1 {
   line-height: 30px;
-  font-family: 'Cardo', serif;
+  font-family: "Cardo", serif;
   letter-spacing: 2px;
   font-size: 60px;
   color: #2f2d2e;
@@ -360,6 +360,7 @@ nav ul li a:active {
 }
 @media (max-width: 1024px) {
   .intro h1 {
+    text-shadow: 2px 2px 3px rgba(104, 88, 88, 0.397);
     line-height: 51px;
     font-size: 40px;
     padding: 2px;
@@ -369,7 +370,7 @@ nav ul li a:active {
   font-size: 30px;
   font-style: italic;
   color: rgba(0, 0, 0, 0.623);
-  font-family: 'Cardo', serif;
+  font-family: "Cardo", serif;
 }
 @media (max-width: 1024px) {
   .intro h2 {
@@ -486,7 +487,7 @@ nav ul li a:active {
 }
 .skills-content .skill-box h2 {
   line-height: 5px;
-  padding: 0 ;
+  padding: 0;
   font-size: 30px;
   text-shadow: 2px 4px 3px rgba(22, 21, 21, 0.397);
 }
@@ -625,10 +626,10 @@ nav ul li a:active {
   }
 }
 .all-work .single-project .project-info h3 {
+  font-family: "Source Code Pro", monospace;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 14px;
   color: #312f2f;
-  letter-spacing: 3px;
 }
 @media (max-width: 1024px) {
   .all-work .single-project .project-info h3 {
@@ -801,8 +802,12 @@ nav ul li a:active {
   text-shadow: none;
   line-height: 40px;
   text-shadow: 2px 4px 3px rgba(150, 135, 135, 0.397);
-  border: 7px solid #ee765250;
+  border: 7px solid #f1edec;
   border-radius: 30px 0;
+  transition: all 0.2s ease-in-out;
+}
+.learning .learning-info:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 1024px) {
   .learning .learning-info {
@@ -831,16 +836,16 @@ nav ul li a:active {
 }
 .network {
   padding: 10px 0;
-  background: #c33764;
+  background: #1d2671;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1d2671, #c33764);
+  background: -webkit-linear-gradient(to left, #1d2671, #c33764);
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #1d2671, #c33764);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-box-shadow: 1px -8px 19px 0px rgba(0, 0, 0, 0.71);
-  -moz-box-shadow: 1px -8px 19px 0px rgba(0, 0, 0, 0.71);
-  box-shadow: 1px -8px 19px 0px rgba(0, 0, 0, 0.71);
   border-bottom: 30px solid #2f2d2e;
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
+  box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
 }
 .network h1 {
   text-align: center;
@@ -884,6 +889,7 @@ nav ul li a:active {
   padding: 30px;
   color: rgba(255, 255, 255, 0.904);
   text-align: center;
+  border-radius: 10%;
   -webkit-box-shadow: -1px 3px 16px -4px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: -1px 3px 16px -4px rgba(0, 0, 0, 0.8);
   box-shadow: -1px 3px 16px -4px rgba(0, 0, 0, 0.8);
@@ -912,6 +918,10 @@ nav ul li a:active {
   margin: 10px;
   font-weight: 300;
   font-size: 17px;
+  transition: all 0.2s ease-in-out;
+}
+.all-network .network-item ul li:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 1024px) {
   .all-network .network-item ul li {
@@ -946,6 +956,10 @@ nav ul li a:active {
   background: rgba(0, 0, 0, 0.541);
   border-bottom: 15px solid rgba(0, 0, 0, 0.301);
   padding: 30px;
+  transition: all 0.2s ease-in-out;
+}
+.media-info .media-box:hover {
+  transform: scale(1.1);
 }
 @media (max-width: 1024px) {
   .media-info .media-box {

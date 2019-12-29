@@ -10,10 +10,13 @@ function Growth() {
 
       <div className="learning">
         <div className="learning-info">
+     
+          <h2>Learning</h2>
+
           <div className="icon">
             <img src={bulb} alt="Learning" />
           </div>
-          <h2>Learning</h2>
+
           I'm actively learning and growing my skills at{" "}
           <a
             target="_blank"
@@ -37,10 +40,14 @@ function Growth() {
         </div>
 
         <div className="learning-info">
+        
+          <h2>Leadership</h2>
+          
           <div className="icon">
             <img src={team} className="icon" alt="Leadership" />
           </div>
-          <h2>Leadership</h2>I am also currently serving in{" "}
+          
+          I am also currently serving in{" "}
           <a
             target="_blank"
             rel="noopener noreferrer"

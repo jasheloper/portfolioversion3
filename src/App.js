@@ -4,9 +4,9 @@ import Header from "./components/header";
 import Intro from "./components/intro";
 import Skills from "./components/skills";
 import Projects from "./components/projects";
-import Growth from './components/growth';
-import Network from './components/network';
-import Footer from './components/footer';
+import Growth from "./components/growth";
+import Network from "./components/network";
+import Footer from "./components/footer";
 import "./css/index.css";
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
         <Nav />
         <Header />
         <Intro />
-        <br />
         <Skills />
         <Projects />
         <Growth />
