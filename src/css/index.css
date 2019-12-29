@@ -40,6 +40,9 @@ code {
   color: red;
   font-weight: 300;
 }
+nav {
+  position: sticky;
+}
 nav ul {
   width: 100%;
   top: 0;
