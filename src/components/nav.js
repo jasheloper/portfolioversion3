@@ -4,10 +4,10 @@ function Nav() {
   return (
     <>
     
-      <nav>
+      <nav id="nav">
         <ul>
           <div className="title">
-          <a rel="noopener noreferrer" href="#home">Jashele.Dev</a>
+          <a rel="noopener noreferrer" href="#nav">Jashele.Dev</a>
          
           </div>
 
