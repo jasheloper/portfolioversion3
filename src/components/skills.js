@@ -5,7 +5,7 @@ function App() {
       return (
         <>
      <div className="skills">
-       <h1>Knowledge & Skills</h1>
+       <h1 id="skills">Knowledge & Skills</h1>
     
 
      <div className="skills-content">

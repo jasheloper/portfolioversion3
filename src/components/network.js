@@ -9,7 +9,7 @@ import wordpress from "../images/wordpress.png";
 function Network() {
   return (
     <div className="network">
-      <h1>Network</h1>
+      <h1 id="contact">Network</h1>
 
       <div className="all-network">
         <div className="network-item">
@@ -18,48 +18,47 @@ function Network() {
           Here's a list of ways to network and connect:
           <ul>
             <li>
-              <img src={linkedin} className="contact-icon" alt="LinkedIn" />{" "}
-              Connect on{" "}
+              <img src={linkedin} className="contact-icon" alt="LinkedIn" /> <br /> 
+         
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="http://example.com"
+                href="https://www.linkedin.com/in/jashelet/"
               >
                 LinkedIn
               </a>
             </li>
 
             <li>
-              <img src={github} className="contact-icon" alt="GitHub" />
-              Follow my work on{" "}
+              <img src={github} className="contact-icon" alt="GitHub" />  <br /> 
+       
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="http://example.com"
+                href="https://github.com/jasheloper"
               >
                 GitHub
               </a>
             </li>
 
             <li>
-              <img src={twitter} className="contact-icon" alt="Twitter" />
+              <img src={twitter} className="contact-icon" alt="Twitter" />  <br /> 
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="http://example.com"
+                href="https://twitter.com/jasheloper"
               >
-                Tweet
-              </a>{" "}
-              me!
+                Twitter
+              </a>
             </li>
 
             <li>
-              <img src={gmail} className="contact-icon" alt="Gmail" />
-              Shoot me an{" "}
+              <img src={gmail} className="contact-icon" alt="Gmail" />  <br /> 
+            
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="http://example.com"
+                href="mailto:jftjashele@gmail.com"
               >
                 Email
               </a>{" "}
@@ -72,7 +71,7 @@ function Network() {
           My work extends in the dev community by way of blogging and video
           content creation. Every chance I get, I use my free time to post
           articles, show people what I'm working on and share knowledge.
-          <br />
+          <br /> 
 
 
           <div className="media-info">
@@ -81,7 +80,7 @@ function Network() {
               YouTube -  <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="http://example.com"
+                href="https://www.youtube.com/channel/UCtNPspkT5vNq9mMcmq4Rjkw"
               >
                 JasheleTechTV
               </a>
@@ -89,10 +88,10 @@ function Network() {
 
             <div className="media-box">
               <img src={wordpress} className="media-icon" alt="wordpress" /> <br />
-              Blog -  <a
+              Articles -  <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="http://example.com"
+                href="https://jashele.blog/"
               >
                 Jashele.Blog
               </a>

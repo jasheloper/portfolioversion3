@@ -31,75 +31,89 @@
   h2 {
     font-size: 40px;
     line-height: 50px;
+    @media @mobile {
+      font-size: 30px;
+    }
   }
 }
 
 .all-network {
-  margin: 0 auto; 
+  margin: 0 auto;
   max-width: 1500px;
   display: flex;
   @media @mobile {
     flex-direction: column;
+
   }
-  
+
   .network-item {
     width: 100%;
+    font-size: 20px;
+    line-height: 37px;
     background-color: rgba(0, 0, 0, 0.719);
     margin: 20px;
     padding: 30px;
     color: rgba(255, 255, 255, 0.904);
     text-align: center;
-    line-height: 30px;
-    -webkit-box-shadow: -1px 3px 16px -4px rgba(0,0,0,0.8);
--moz-box-shadow: -1px 3px 16px -4px rgba(0,0,0,0.8);
-box-shadow: -1px 3px 16px -4px rgba(0,0,0,0.8);
+
+    -webkit-box-shadow: -1px 3px 16px -4px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: -1px 3px 16px -4px rgba(0, 0, 0, 0.8);
+    box-shadow: -1px 3px 16px -4px rgba(0, 0, 0, 0.8);
     @media @mobile {
       width: auto;
+      font-size: 18px;
     }
 
     ul {
+      display: flex;
       list-style-type: none;
       padding: 10px 70px;
       @media @mobile {
         padding: 0;
+        flex-direction: column;
+ 
       }
       li {
+        padding: 15px; 
         background: rgba(0, 0, 0, 0.534);
-
-        text-align: left;
+        text-align: center;
         margin: 10px;
-        padding: 10px 10px;
         font-weight: 300;
-        font-size: 25px;
+        font-size: 17px;
         @media @mobile {
           font-size: 17px;
+          width: auto; 
         }
       }
       .contact-icon {
         padding: 5px 20px;
-        width: 20px;
-        height: 20px;
+        width: 40px;
+        height: 40px;
         object-fit: cover;
         @media @mobile {
-          padding: 0 10px; 
+          padding: 0 10px;
         }
       }
- 
     }
   }
 }
 
-
 .media-info {
   display: flex;
   justify-content: center;
+  padding: 10px 0; 
   @media @mobile {
     flex-direction: column;
   }
   .media-box {
-    background: black; 
-    margin: 20px; 
+    width: 100%; 
+    margin: 2px; 
+    background: rgba(0, 0, 0, 0.541);
+    border-bottom: 15px solid rgba(0, 0, 0, 0.301); 
     padding: 30px;
+    @media @mobile {
+      width: auto; 
+    }
   }
 }
 

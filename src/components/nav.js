@@ -7,26 +7,23 @@ function Nav() {
       <nav>
         <ul>
           <div className="title">
-          <a rel="noopener noreferrer" href="/">Jashele.Dev</a>
+          <a rel="noopener noreferrer" href="#home">Jashele.Dev</a>
          
           </div>
 
           <li>
 
-            <a rel="noopener noreferrer" href="/">Projects</a>
+            <a rel="noopener noreferrer" href="#skills">Skills</a>
           </li>
 
           <li>
-          <a rel="noopener noreferrer" href="/">Blog</a>
+          <a rel="noopener noreferrer" href="#projects">Projects</a>
           </li>
 
           <li>
-          <a rel="noopener noreferrer" href="/">Media</a>
+          <a rel="noopener noreferrer" href="#contact">Contact</a>
           </li>
 
-          <li>
-          <a rel="noopener noreferrer" href="/">Contact</a>
-          </li>
         </ul>
       </nav>
     </>
