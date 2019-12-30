@@ -517,6 +517,7 @@ nav ul li a:active {
 @media (max-width: 1024px) {
   .skills-content .skill-box {
     width: auto;
+    transform: none;
   }
 }
 .skills-content .skill-box ul {
@@ -832,6 +833,9 @@ nav ul li a:active {
     width: auto;
     font-size: 17.5px;
     line-height: 35px;
+  }
+  .learning .learning-info:hover {
+    transform: none;
   }
 }
 .learning .learning-info img {
