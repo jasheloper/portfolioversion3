@@ -6,7 +6,7 @@ function Footer() {
       © 2019 - 2020
       <br />
       Built, designed, and coded by{" "}
-      <a rel="noopener noreferrer" href="#nav">
+      <a rel="noopener noreferrer" href="#nav" className="top">
         Jashele Tillman
       </a>
       .
