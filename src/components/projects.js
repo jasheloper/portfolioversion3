@@ -26,9 +26,6 @@ function Projects() {
               <br />
               <h4>
                 <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://jashele.dev/"
                 >
                   Live Demo
                 </a>{" "}
