@@ -663,6 +663,16 @@ nav ul li a:active {
   color: #db991d;
   text-decoration: underline;
 }
+.all-work .single-project .project-info .category {
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.452);
+  width: auto;
+  font-size: 15px;
+}
+.all-work .single-project .project-info .category .category-span {
+  font-weight: bolder;
+  color: #ee7752;
+}
 /* Description needs to stand out in projects section.  */
 .description {
   background: #2f2d2e !important;

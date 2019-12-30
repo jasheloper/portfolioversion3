@@ -38,7 +38,15 @@ function Projects() {
                   GitHub Code
                 </a>
               </h4>
+
+              <div className="category">
+              <span className="category-span">Category:</span> Front End 
             </div>
+            </div>
+
+         
+
+          
           </div>
 
           <div className="single-project">
@@ -71,7 +79,12 @@ function Projects() {
                   GitHub Code
                 </a>
               </h4>
+
+              <div className="category">
+              <span className="category-span">Category:</span> Front End 
             </div>
+            </div>
+          
           </div>
 
           <div className="single-project">
@@ -104,12 +117,16 @@ function Projects() {
                   GitHub Code
                 </a>
               </h4>
+              <div className="category">
+              <span className="category-span">Category:</span> Front End 
+            </div>
             </div>
           </div>
+       
 
-          {/* <div className="button-div">
-            <button>View More</button>
-          </div> */}
+           <div className="button-div">
+            <button>More Coming Soon!</button>
+          </div> 
         </div>
       </div>
     </>
