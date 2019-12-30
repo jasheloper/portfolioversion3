@@ -969,7 +969,7 @@ nav ul li a:active {
   margin: 10px;
   background: rgba(0, 0, 0, 0.541);
   border-bottom: 15px solid rgba(0, 0, 0, 0.301);
-  padding: 10px 0;
+  padding: 4px 30px;
   transition: all 0.2s ease-in-out;
 }
 .media-info .media-box:hover {
@@ -987,20 +987,21 @@ nav ul li a:active {
 }
 footer {
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
   padding: 80px 0;
   text-align: center;
   line-height: 40px;
-  font-size: 19px;
+  font-size: 23px;
   background: #000000;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #434343, #000000);
+  background: -webkit-linear-gradient(to top, #242323, #000000);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #434343, #000000);
+  background: linear-gradient(to top, #242323, #000000);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 @media (max-width: 1024px) {
   footer {
-    font-size: 12px;
+    font-size: 15px;
+    padding: 60px 20px;
   }
 }

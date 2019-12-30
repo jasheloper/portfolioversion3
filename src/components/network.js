@@ -74,7 +74,7 @@ function Network() {
           <div className="media-info">
             <div className="media-box">
               <img src={youtube} className="media-icon" alt="Youtube" /> <br />
-              YouTube -{" "}
+              YouTube - <br />
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -87,7 +87,7 @@ function Network() {
             <div className="media-box">
               <img src={wordpress} className="media-icon" alt="wordpress" />{" "}
               <br />
-              Articles -{" "}
+              Articles - <br />
               <a
                 target="_blank"
                 rel="noopener noreferrer"
