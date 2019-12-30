@@ -1016,7 +1016,7 @@ footer {
 }
 @media (max-width: 1024px) {
   footer {
-    color: rgba(247, 247, 247, 0.795);
+    color: rgba(247, 247, 247, 0.644);
     font-size: 16.5px;
     padding: 60px 20px;
   }
