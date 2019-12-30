@@ -829,7 +829,8 @@ nav ul li a:active {
 @media (max-width: 1024px) {
   .learning .learning-info {
     width: auto;
-    font-size: 16px;
+    font-size: 17.5px;
+    line-height: 35px;
   }
 }
 .learning .learning-info img {
@@ -1004,7 +1005,7 @@ footer {
 }
 @media (max-width: 1024px) {
   footer {
-    font-size: 16px;
+    font-size: 17.5px;
     padding: 60px 20px;
   }
 }
