@@ -517,7 +517,9 @@ nav ul li a:active {
 @media (max-width: 1024px) {
   .skills-content .skill-box {
     width: auto;
-    transform: none;
+  }
+  .skills-content .skill-box:hover {
+    animation: none;
   }
 }
 .skills-content .skill-box ul {
@@ -1016,7 +1018,7 @@ footer {
 }
 @media (max-width: 1024px) {
   footer {
-    color: rgba(247, 247, 247, 0.644);
+    color: rgba(238, 235, 235, 0.315);
     font-size: 16.5px;
     padding: 60px 20px;
   }
