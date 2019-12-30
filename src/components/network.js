@@ -18,7 +18,11 @@ function Network() {
           Here's a list of ways to network and connect:
           <ul>
             <li>
-              <img src={linkedin} className="contact-icon" alt="LinkedIn" />{" "}
+            <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.linkedin.com/in/jashelet/"
+              ><img src={linkedin} className="contact-icon" alt="LinkedIn" /></a>{" "}
               <br />
               <a
                 target="_blank"
@@ -30,7 +34,11 @@ function Network() {
             </li>
 
             <li>
-              <img src={github} className="contact-icon" alt="GitHub" /> <br />
+            <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jasheloper"
+              > <img src={github} className="contact-icon" alt="GitHub" /></a> <br />
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -41,7 +49,11 @@ function Network() {
             </li>
 
             <li>
-              <img src={twitter} className="contact-icon" alt="Twitter" />{" "}
+            <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com/jasheloper"
+              ><img src={twitter} className="contact-icon" alt="Twitter" /></a>{" "}
               <br />
               <a
                 target="_blank"
@@ -53,7 +65,11 @@ function Network() {
             </li>
 
             <li>
-              <img src={gmail} className="contact-icon" alt="Gmail" /> <br />
+            <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:jftjashele@gmail.com"
+              > <img src={gmail} className="contact-icon" alt="Gmail" /></a> <br />
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -73,7 +89,11 @@ function Network() {
           <br />
           <div className="media-info">
             <div className="media-box">
-              <img src={youtube} className="media-icon" alt="Youtube" /> <br />
+            <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.youtube.com/channel/UCtNPspkT5vNq9mMcmq4Rjkw"
+              ><img src={youtube} className="media-icon" alt="Youtube" /></a> <br />
               YouTube - <br />
               <a
                 target="_blank"
@@ -85,7 +105,11 @@ function Network() {
             </div>
 
             <div className="media-box">
-              <img src={wordpress} className="media-icon" alt="wordpress" />{" "}
+            <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://jashele.blog/"
+              ><img src={wordpress} className="media-icon" alt="wordpress" /></a>{" "}
               <br />
               Articles - <br />
               <a
