@@ -946,6 +946,9 @@ nav ul li a:active {
     font-size: 17px;
     width: auto;
   }
+  .all-network .network-item ul li:hover {
+    transform: none;
+  }
 }
 .all-network .network-item ul .contact-icon {
   padding: 5px 20px;
@@ -983,6 +986,9 @@ nav ul li a:active {
 @media (max-width: 1024px) {
   .media-info .media-box {
     width: auto;
+  }
+  .media-info .media-box:hover {
+    transform: none;
   }
 }
 .media-icon {
