@@ -19,6 +19,21 @@ html .everythingwrapped {
   margin: 0 auto;
   max-width: 2000px;
 }
+body ::-webkit-scrollbar,
+html ::-webkit-scrollbar {
+  width: 30px;
+}
+body ::-webkit-scrollbar-thumb,
+html ::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ee7752), to(#ee7752));
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.25), inset -2px -2px 2px rgba(0, 0, 0, 0.25);
+}
+body ::-webkit-scrollbar-track,
+html ::-webkit-scrollbar-track {
+  background-color: #fff;
+  background: linear-gradient(to right, #2f2d2e, #2f2d2e 1px, #2f2d2e 1px, #2f2d2e);
+}
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0;
@@ -842,7 +857,6 @@ nav ul li a:active {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #1d2671, #c33764);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  border-bottom: 30px solid #2f2d2e;
   -webkit-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
   -moz-box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
   box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.33);
@@ -952,10 +966,10 @@ nav ul li a:active {
 }
 .media-info .media-box {
   width: 100%;
-  margin: 2px;
+  margin: 10px;
   background: rgba(0, 0, 0, 0.541);
   border-bottom: 15px solid rgba(0, 0, 0, 0.301);
-  padding: 30px;
+  padding: 10px 0;
   transition: all 0.2s ease-in-out;
 }
 .media-info .media-box:hover {
@@ -972,15 +986,18 @@ nav ul li a:active {
   object-fit: cover;
 }
 footer {
-  padding: 30px 0;
+  color: white;
+  font-weight: bold;
+  padding: 80px 0;
   text-align: center;
-  color: rgba(0, 0, 0, 0.836);
-  text-shadow: none;
   line-height: 40px;
-  background: rgba(255, 255, 255, 0.144);
-  -webkit-box-shadow: inset 0px 0px 128px 3px rgba(0, 0, 0, 0.14);
-  -moz-box-shadow: inset 0px 0px 128px 3px rgba(0, 0, 0, 0.14);
-  box-shadow: inset 0px 0px 128px 3px rgba(0, 0, 0, 0.14);
+  font-size: 19px;
+  background: #000000;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #434343, #000000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #434343, #000000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 @media (max-width: 1024px) {
   footer {
