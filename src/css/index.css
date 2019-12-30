@@ -812,7 +812,7 @@ nav ul li a:active {
   text-align: center;
   width: 100%;
   padding: 10px 10px;
-  margin: 30px;
+  margin: 33px;
   background: rgba(255, 255, 255, 0.603);
   text-shadow: none;
   line-height: 40px;
@@ -1004,4 +1004,7 @@ footer {
     font-size: 15px;
     padding: 60px 20px;
   }
+}
+.top {
+  color: #ee7752;
 }
