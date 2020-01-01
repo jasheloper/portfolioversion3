@@ -13,6 +13,7 @@ Jashele.Dev is my own portfolio website built solely for the purpose of displayi
 
 
 # Network
+- [JasheleTillman.Me](https://jasheletillman.me/ "Personal Site")
 - [LinkedIn](https://www.linkedin.com/in/jashelet/ "LinkedIn")
 - [Twitter](https://twitter.com/jasheloper "Twitter")
 
