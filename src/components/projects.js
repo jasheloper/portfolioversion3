@@ -2,6 +2,7 @@ import React from "react";
 import recipe from "../images/recipegen.png";
 import tvguide from "../images/tvguide.png";
 import portfolio from "../images/portfoliosite.png";
+import personal from '../images/personal.png';
 
 function Projects() {
   return (
@@ -10,6 +11,44 @@ function Projects() {
         <h1 id="projects">Projects & Code </h1>
 
         <div className="all-work">
+
+
+        <div className="single-project">
+            <div className="project-info">
+              <h2>Personal Website</h2>
+              <h3>Tools: HTML, LESS</h3>
+              <img src={personal} alt="Personal Website Project" />
+            </div>
+
+            <div className="project-info description">
+              Personal website built solely to showcase my online presence including my web development work, writing, and content creation.
+              <br />
+              <h4>
+              <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://jasheletillman.me/"
+                >
+                  Live Demo
+                </a>
+               
+              </h4>
+
+              <div className="category">
+              <span className="category-span">Category:</span> Front End 
+            </div>
+            </div>
+
+         
+
+          
+          </div>
+
+
+
+
+
+          
           <div className="single-project">
             <div className="project-info">
               <h2>Portfolio Website</h2>
@@ -18,11 +57,7 @@ function Projects() {
             </div>
 
             <div className="project-info description">
-              Portfolio site built solely for the purpose of displaying my work
-              in web development, writing, and content creation. A tool that is
-              utilized for professional networking with others in the software
-              (or similiar) fields including employers & a centralized location
-              to share my knowledge and what I'm learning.
+             Portfolio site which mainly serves to display my latest projects and skills.
               <br />
               <h4>
                 <a
