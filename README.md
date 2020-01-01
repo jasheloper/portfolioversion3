@@ -1,6 +1,6 @@
 # Jashele.Dev
 
-Jashele.Dev is my own portfolio website built solely for the purpose of displaying my work in web development, writing, and content creation. A tool that is utilized for professional networking with others in the software (or similiar) fields including employers & a centralized location to share my knowledge and what I'm learning.
+Jashele.Dev is my own portfolio website which mainly serves to display my latest projects & skills and is also utilized for professional networking with others in the software (or similar) fields including employers.
 
 # Tech Stack
 
