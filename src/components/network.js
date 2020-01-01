@@ -15,7 +15,7 @@ function Network() {
         <div className="network-item">
           <h2>Reach Out</h2>I am interested in learning about serious Full-Time
           opportunities and roles in Front End and Full Stack Web Development.
-          Here's a list of ways to network and connect with me:
+          Here's a list of ways to network and connect with me, let's chat!
           <ul>
             <li>
             <a
