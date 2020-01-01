@@ -21,7 +21,7 @@ function Projects() {
             </div>
 
             <div className="project-info description">
-              Personal website built solely to showcase my online presence including my web development work, writing, and content creation.
+              Personal site built to showcase my online presence including my work in web development, writing, and content creation.
               <br />
               <h4>
               <a
@@ -57,7 +57,7 @@ function Projects() {
             </div>
 
             <div className="project-info description">
-             Portfolio site which mainly serves to display my latest projects and skills.
+            Portfolio site which mainly serves to display my latest projects and skills and is utilized for professional networking with others in the software (or similar) fields including employers.
               <br />
               <h4>
                 <a
