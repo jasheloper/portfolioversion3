@@ -57,7 +57,7 @@ function Projects() {
             </div>
 
             <div className="project-info description">
-            Portfolio site which mainly serves to display my latest projects and skills and is utilized for professional networking with others in the software (or similar) fields including employers.
+            Portfolio site which mainly serves to display my latest projects & skills and is also utilized for professional networking with others in the software (or similar) fields including employers.
               <br />
               <h4>
                 <a
