@@ -87,7 +87,7 @@ function Projects() {
           <div className="single-project">
             <div className="project-info">
               <h2>Recipe Generator</h2>
-              <h3>Tools: React, Axios, Redux</h3>
+              <h3>Tools: React, Redux, Axios</h3>
               <img src={recipe} alt="Project" />
             </div>
 
@@ -125,7 +125,7 @@ function Projects() {
           <div className="single-project">
             <div className="project-info">
               <h2>TV Guide</h2>
-              <h3>Tools: React, Hooks, AJAX</h3>
+              <h3>Tools: React, Class Components</h3>
               <img src={tvguide} alt="Project" />
             </div>
 
