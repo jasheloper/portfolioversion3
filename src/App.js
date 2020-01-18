@@ -20,7 +20,15 @@ function App() {
         <Projects />
         <Growth />
         <Network />
+
         <Footer />
+        {/* 
+       
+     
+    
+      
+      
+         */}
       </div>
     </>
   );

@@ -11,7 +11,7 @@ function Intro() {
 
         <h1>Jashele Tillman</h1>
 
-        <h2>Full Stack Web Developer</h2>
+        <h2>Software Engineer</h2>
       </div>
     </>
   );
