@@ -10,7 +10,7 @@ import Footer from "./components/footer";
 import "./css/index.css";
 
 function App() {
-  return (
+  return ( 
     <>
       <div className="everythingwrapped">
         <Nav />
@@ -20,15 +20,7 @@ function App() {
         <Projects />
         <Growth />
         <Network />
-
         <Footer />
-        {/* 
-       
-     
-    
-      
-      
-         */}
       </div>
     </>
   );

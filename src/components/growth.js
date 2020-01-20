@@ -60,7 +60,7 @@ function Growth() {
           & support, code review, and feedback. I also serve as a Project Lead
           for build weeks helping students to understand their role in the
           project, set up tools for organizing the project, and host daily
-          standups.
+          standup meetings.
         </div>
       </div>
     </div>
