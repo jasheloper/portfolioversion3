@@ -55,7 +55,7 @@ function Growth() {
           >
             Lambda School's
           </a>{" "}
-          internship program as a Team Lead where I am leading a team of 6
+          internship program as a Team Lead where I am leading a team of 7
           Software Engineering students providing group and one-on-one guidance
           & support, code review, and feedback. I also serve as a Project Lead
           for build weeks helping students to understand their role in the

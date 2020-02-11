@@ -2,7 +2,8 @@ import React from "react";
 import recipe from "../images/recipegen.png";
 import tvguide from "../images/tvguide.png";
 import portfolio from "../images/portfoliosite.png";
-import personal from '../images/personal.png';
+import personal from "../images/personal.png";
+import api from '../images/apiwithauth.png'
 
 function Projects() {
   return (
@@ -11,9 +12,45 @@ function Projects() {
         <h1 id="projects">Projects & Code </h1>
 
         <div className="all-work">
+          <div className="single-project">
+            <div className="project-info">
+              <h2>API with Authentication</h2>
+              <h3>Tools: Express, Node, SQL</h3>
+              <img src={api} alt="Personal Website Project" />
+            </div>
 
+            <div className="project-info description">
+            Delivered a RESTful Web-based API using Node, Express, and SQL that allows users to register, login, and perform CRUD operations.  Implemented JSON Web Token authentication for security and added restricted middleware to prevent access to unauthorized endpoints. Built automated unit tests using jest.
 
-        <div className="single-project">
+              <br />
+              <h4>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://restaurant-passport-5.herokuapp.com/api/restaurants"
+                >
+                  Live Demo
+                </a>{" "}
+                |{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://github.com/Build-Week-Restaurant-Passport-5/backend"
+                >
+                  GitHub Code
+                </a>{" "}
+                | {" "}
+                <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/BsUcEXAyY_M">
+                  Video Demo
+                </a>
+              </h4>
+              <div className="category">
+                <span className="category-span">Category:</span> Back End
+              </div>
+            </div>
+          </div>
+
+          <div className="single-project">
             <div className="project-info">
               <h2>Personal Website</h2>
               <h3>Tools: HTML, LESS</h3>
@@ -21,34 +58,23 @@ function Projects() {
             </div>
 
             <div className="project-info description">
-              Personal site built to showcase my online presence including my work in web development, writing, and content creation.
+            Built, coded, and designed a fully responsive personal website using HTML5 & CSS3 to showcase my online presence which includes my work in web development and content creation.  Implemented LESS preprocessing for styling.
               <br />
               <h4>
-              <a
+                <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://jasheletillman.me/"
                 >
                   Live Demo
                 </a>
-               
               </h4>
-
               <div className="category">
-              <span className="category-span">Category:</span> Front End 
+                <span className="category-span">Category:</span> Front End
+              </div>
             </div>
-            </div>
-
-         
-
-          
           </div>
 
-
-
-
-
-          
           <div className="single-project">
             <div className="project-info">
               <h2>Portfolio Website</h2>
@@ -57,14 +83,11 @@ function Projects() {
             </div>
 
             <div className="project-info description">
-            Portfolio site which mainly serves to display my latest projects & skills and is also utilized for professional networking with others in the software (or similar) fields including employers.
+            Built, coded, and designed a fully responsive portfolio website using React.js to display recent projects and updates in web development.  Structured the site using React functional components.  Implemented LESS preprocessing for styling. 
+
               <br />
               <h4>
-                <a
-                >
-                  Live Demo
-                </a>{" "}
-                |{" "}
+                <a>Live Demo</a> |{" "}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -73,15 +96,10 @@ function Projects() {
                   GitHub Code
                 </a>
               </h4>
-
               <div className="category">
-              <span className="category-span">Category:</span> Front End 
+                <span className="category-span">Category:</span> Front End
+              </div>
             </div>
-            </div>
-
-         
-
-          
           </div>
 
           <div className="single-project">
@@ -92,11 +110,7 @@ function Projects() {
             </div>
 
             <div className="project-info description">
-              This React app allows users to generate a random meal on button
-              click. 3rd party API data was implemented using Axios and the
-              selected data that users see on each request is:{" "}
-              <code>title, photo, instructions, category,</code> and{" "}
-              <code>area</code>.
+              A React app that generates a different recipe on button click.  Implemented Redux for state management.  Used Axios to GET data from 3rd party API endpoints. 
               <h4>
                 <a
                   target="_blank"
@@ -114,12 +128,10 @@ function Projects() {
                   GitHub Code
                 </a>
               </h4>
-
               <div className="category">
-              <span className="category-span">Category:</span> Front End 
+                <span className="category-span">Category:</span> Front End
+              </div>
             </div>
-            </div>
-          
           </div>
 
           <div className="single-project">
@@ -130,11 +142,7 @@ function Projects() {
             </div>
 
             <div className="project-info description">
-              This React app allows users to see the latest episodes on
-              television. The data is generated from a live 3rd party API and is
-              automatically updated each day. Each request gets{" "}
-              <code>image, overview, country, language,</code> and{" "}
-              <code>vote average</code>.
+            A React app that displays a list of TV shows airing today and updates automatically each day.  Implemented React class components and incorporated lifecycle methods to render data from a 3rd party API.
               <h4>
                 <a
                   target="_blank"
@@ -153,15 +161,14 @@ function Projects() {
                 </a>
               </h4>
               <div className="category">
-              <span className="category-span">Category:</span> Front End 
-            </div>
+                <span className="category-span">Category:</span> Front End
+              </div>
             </div>
           </div>
-       
 
-           <div className="button-div">
+          <div className="button-div">
             <button>More Coming Soon!</button>
-          </div> 
+          </div>
         </div>
       </div>
     </>
