@@ -41,7 +41,7 @@ function Projects() {
                 </a>{" "}
                 | {" "}
                 <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/BsUcEXAyY_M">
-                  Video Demo
+                  Video 
                 </a>
               </h4>
               <div className="category">
