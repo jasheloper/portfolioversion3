@@ -15,7 +15,7 @@ function Footer() {
       </a>
       .
       <br /> <br />
-      <a rel="noopener noreferrer" href="#nav" className="top">
+      <a rel="noopener noreferrer" href="#" className="top">
         Back To Top
       </a>
     </footer>
