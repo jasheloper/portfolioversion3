@@ -166,9 +166,16 @@ function Projects() {
             </div>
           </div>
 
-          <div className="button-div">
-            <button>More Coming Soon!</button>
+          <div>
+            {/* for no reason... */}
           </div>
+
+
+    <br />
+    <br />
+
+    
+
         </div>
       </div>
     </>
