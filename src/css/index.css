@@ -444,6 +444,11 @@ nav ul li a:hover {
   font-size: 30px;
   text-shadow: 2px 4px 3px rgba(22, 21, 21, 0.397);
 }
+@media (max-width: 1298px) {
+  .skills-content .skill-box {
+    width: auto;
+  }
+}
 .skills-content .skill-box:hover {
   transform: scale(1.1);
 }
