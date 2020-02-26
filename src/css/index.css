@@ -300,6 +300,11 @@ nav ul li a:hover {
   transform: scale(1.1);
 }
 @media (max-width: 1298px) {
+  .intro img:hover {
+    transform: none;
+  }
+}
+@media (max-width: 1298px) {
   .intro img {
     width: 250px;
     height: 250px;
